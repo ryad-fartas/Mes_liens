@@ -3,74 +3,124 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mes réseaux</title>
+  <title>Ryad Fartas — Liens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="grain"></div>
+
 <main class="container">
 
- 
   <header class="header">
-    <div class="avatar-image">
-      <img src="images/IMG_20240919_200423_615.jpg" alt="Avatar">
+    <div class="avatar reveal">
+      <img src="images/IMG_20240919_200423_615.jpg" alt="Ryad Fartas">
+      <div class="avatar-ring"></div>
     </div>
-    <div>
-      <h1>Mes réseaux</h1>
-      <p class="lead">Clique sur un lien pour ouvrir mon profil.</p>
-    </div>
+    <h1 class="name reveal">Ryad Fartas</h1>
+    <p class="bio reveal">Developpeur &mdash; Createur &mdash; Passione</p>
   </header>
 
+  <nav class="grid">
 
-  <section class="card">
-    <nav class="links">
+    <a class="card card--wide reveal" href="https://portfolio.ryadfartas-rf.workers.dev/" target="_blank">
+      <div class="card-top">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">Portfolio</span>
+      <span class="card-sub">Voir mes projets</span>
+    </a>
 
-      <a class="link" href="https://www.instagram.com/ryad_fartas/" target="_blank">
-        <img class="icon" src="images/Instagram.png" alt="Instagram">
-        <div class="text">
-          <span class="title">Instagram</span>
-          <span class="subtitle">ryad-fartas</span>
-        </div>
-      </a>
+    <a class="card reveal" href="https://www.instagram.com/ryad_fartas/" target="_blank">
+      <div class="card-top">
+        <img class="card-icon" src="images/Instagram.png" alt="Instagram">
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">Instagram</span>
+      <span class="card-sub">@ryad_fartas</span>
+    </a>
 
-      <a class="link" href="https://x.com/FartasRyad" target="_blank">
-        <img class="icon" src="images/x.png" alt="x">
-        <div class="text">
-          <span class="title">Twitter / X</span>
-          <span class="subtitle">@FartasRyad</span>
-        </div>
-      </a>
+    <a class="card reveal" href="https://x.com/FartasRyad" target="_blank">
+      <div class="card-top">
+        <img class="card-icon" src="images/x.png" alt="X">
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">X / Twitter</span>
+      <span class="card-sub">@FartasRyad</span>
+    </a>
 
-      <a class="link" href="https://www.linkedin.com/in/ryad-fartas-104b9b328/" target="_blank">
-        <img class="icon" src="images/in.png" alt="LinkedIn">
-        <div class="text">
-          <span class="title">LinkedIn</span>
-          <span class="subtitle">ryad-fartas</span>
-        </div>
-      </a>
+    <a class="card reveal" href="https://www.linkedin.com/in/ryad-fartas-104b9b328/" target="_blank">
+      <div class="card-top">
+        <img class="card-icon" src="images/in.png" alt="LinkedIn">
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">LinkedIn</span>
+      <span class="card-sub">ryad-fartas</span>
+    </a>
 
-      <a class="link" href="https://github.com/ryad-fartas" target="_blank">
-        <img class="icon" src="images/git.png" alt="GitHub">
-        <div class="text">
-          <span class="title">GitHub</span>
-          <span class="subtitle">ryad-fartas</span>
-        </div>
-      </a>
+    <a class="card reveal" href="https://github.com/ryad-fartas" target="_blank">
+      <div class="card-top">
+        <img class="card-icon" src="images/git.png" alt="GitHub">
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">GitHub</span>
+      <span class="card-sub">ryad-fartas</span>
+    </a>
 
-      <a class="link" href="https://mail.google.com/">
-        <img class="icon" src="images/gmail.png" alt="Mail">
-        <div class="text">
-          <span class="title">Email</span>
-          <span class="subtitle">ryadfartas.rf@gmail.com</span>
-        </div>
-      </a>
+    <a class="card reveal" href="mailto:ryadfartas.rf@gmail.com">
+      <div class="card-top">
+        <img class="card-icon" src="images/gmail.png" alt="Email">
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+      </div>
+      <span class="card-label">Email</span>
+      <span class="card-sub">ryadfartas.rf@gmail.com</span>
+    </a>
 
-    </nav>
+  </nav>
 
-    <footer class="footer">N'hésite pas à me contacter </footer>
-  </section>
+  <footer class="footer reveal">
+    <div class="footer-line"></div>
+    <span>Contactez-moi</span>
+  </footer>
 
 </main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    reveals.forEach((el, i) => {
+      el.style.transitionDelay = `${i * 120}ms`;
+      observer.observe(el);
+    });
+
+    /* tilt effect on cards */
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width - 0.5) * 8;
+        const y = ((e.clientY - rect.top) / rect.height - 0.5) * -8;
+        card.style.transform = `perspective(600px) rotateY(${x}deg) rotateX(${y}deg) scale(1.02)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(600px) rotateY(0) rotateX(0) scale(1)';
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
